@@ -12,6 +12,7 @@
 		4311AC941E429DF0002187B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4311AC921E429DF0002187B6 /* Main.storyboard */; };
 		4311AC961E429DF0002187B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4311AC951E429DF0002187B6 /* Assets.xcassets */; };
 		4311AC991E429DF0002187B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4311AC971E429DF0002187B6 /* LaunchScreen.storyboard */; };
+		4311ACA11E42A2C3002187B6 /* imagem.png in Resources */ = {isa = PBXBuildFile; fileRef = 4311ACA01E42A2C3002187B6 /* imagem.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4311AC951E429DF0002187B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4311AC981E429DF0002187B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4311AC9A1E429DF0002187B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4311ACA01E42A2C3002187B6 /* imagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagem.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4311AC8D1E429DF0002187B6 /* Aula_012_MessageUIMail */ = {
 			isa = PBXGroup;
 			children = (
+				4311ACA01E42A2C3002187B6 /* imagem.png */,
 				4311AC8E1E429DF0002187B6 /* AppDelegate.swift */,
 				4311AC901E429DF0002187B6 /* ViewController.swift */,
 				4311AC921E429DF0002187B6 /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					4311AC8A1E429DEF002187B6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3XU35YZPYQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4311AC991E429DF0002187B6 /* LaunchScreen.storyboard in Resources */,
+				4311ACA11E42A2C3002187B6 /* imagem.png in Resources */,
 				4311AC961E429DF0002187B6 /* Assets.xcassets in Resources */,
 				4311AC941E429DF0002187B6 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XU35YZPYQ;
 				INFOPLIST_FILE = Aula_012_MessageUIMail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.quaddro.com.Aula-012-MessageUIMail";
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XU35YZPYQ;
 				INFOPLIST_FILE = Aula_012_MessageUIMail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.quaddro.com.Aula-012-MessageUIMail";
